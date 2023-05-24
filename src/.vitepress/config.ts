@@ -11,11 +11,6 @@ export default defineConfig({
       lang: "/",
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        nav: [
-          { text: "Home", link: "/" },
-          { text: "Quick Start", link: "/quick-start/introduction" },
-        ],
-
         sidebar: [
           {
             text: "Quick Start",
@@ -37,7 +32,6 @@ export default defineConfig({
                     text: "Deploy with Remix",
                     link: "/zh/smart-contract/deployment/remix",
                   },
-                  // { text: "使用SCS Start", link: "/zh/smart-contract/deployment/scs-start" },
                 ],
               },
               {
@@ -80,11 +74,6 @@ export default defineConfig({
       link: "/zh/",
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        nav: [
-          { text: "主页", link: "/zh/" },
-          { text: "快速开始", link: "/zh/quick-start/introduction" },
-        ],
-
         sidebar: [
           {
             text: "快速开始",
