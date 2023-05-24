@@ -25,9 +25,7 @@ export default defineConfig({
           },
           {
             text: "Node",
-            items: [
-              { text: "Node Overview", link: "/node/node-overview" },
-            ],
+            items: [{ text: "Node Overview", link: "/node/node-overview" }],
           },
           {
             text: "Smart Contract",
@@ -35,18 +33,27 @@ export default defineConfig({
               {
                 text: "Deployment",
                 items: [
-                  { text: "Deploy with Remix", link: "/zh/smart-contract/deployment/remix" },
+                  {
+                    text: "Deploy with Remix",
+                    link: "/zh/smart-contract/deployment/remix",
+                  },
                   // { text: "使用SCS Start", link: "/zh/smart-contract/deployment/scs-start" },
                 ],
               },
               {
                 text: "SIP Standard",
                 items: [
-                  { text: "SIP 20：SRC-20 Token Standard", link: "/zh/smart-contract/standard/SIP-20" },
-                  { text: "SIP 721：SRC-721 Non-Fungible Token Standard", link: "/zh/smart-contract/standard/SIP-721" },
+                  {
+                    text: "SIP 20：SRC-20 Token Standard",
+                    link: "/zh/smart-contract/standard/SIP-20",
+                  },
+                  {
+                    text: "SIP 721：SRC-721 Non-Fungible Token Standard",
+                    link: "/zh/smart-contract/standard/SIP-721",
+                  },
                 ],
-              }
-            ]
+              },
+            ],
           },
           {
             text: "API",
@@ -56,9 +63,7 @@ export default defineConfig({
           },
           {
             text: "Question",
-            items: [
-              { text: "Q&A", link: "/zh/question/question-answer" },
-            ],
+            items: [{ text: "Q&A", link: "/zh/question/question-answer" }],
           },
         ],
 
@@ -67,9 +72,9 @@ export default defineConfig({
         ],
 
         outlineTitle: " ",
-      }
+      },
     },
-    'zh': {
+    zh: {
       label: "简体中文",
       lang: "zh",
       link: "/zh/",
@@ -83,15 +88,11 @@ export default defineConfig({
         sidebar: [
           {
             text: "快速开始",
-            items: [
-              { text: "简介", link: "/zh/quick-start/introduction" },
-            ],
+            items: [{ text: "简介", link: "/zh/quick-start/introduction" }],
           },
           {
             text: "节点",
-            items: [
-              { text: "节点概述", link: "/zh/node/node-overview" },
-            ],
+            items: [{ text: "节点概述", link: "/zh/node/node-overview" }],
           },
           {
             text: "智能合约",
@@ -99,24 +100,45 @@ export default defineConfig({
               {
                 text: "部署",
                 items: [
-                  { text: "使用Remix", link: "/zh/smart-contract/deployment/remix" },
+                  {
+                    text: "使用Remix",
+                    link: "/zh/smart-contract/deployment/remix",
+                  },
                   // { text: "使用SCS Start", link: "/zh/smart-contract/deployment/scs-start" },
                 ],
               },
               {
                 text: "标准",
                 items: [
-                  { text: "SIP 20：SRC-20 代币标准", link: "/zh/smart-contract/standard/SIP-20" },
-                  { text: "SIP 721：SRC-721 非同质化代币标准", link: "/zh/smart-contract/standard/SIP-721" },
+                  {
+                    text: "SIP 20：SRC-20 代币标准",
+                    link: "/zh/smart-contract/standard/SIP-20",
+                  },
+                  {
+                    text: "SIP 721：SRC-721 非同质化代币标准",
+                    link: "/zh/smart-contract/standard/SIP-721",
+                  },
                 ],
-              }
-            ]
+              },
+            ],
           },
           {
             text: "API",
+            items: [
+              {
+                text: "JSON-RPC",
+                link: "/zh/api/json-rpc",
+              },
+            ],
           },
           {
             text: "SDK",
+            items: [
+              {
+                text: "Ethers.js",
+                link: "/zh/sdk/ethersjs",
+              },
+            ],
           },
           {
             text: "常见问题",
@@ -130,11 +152,14 @@ export default defineConfig({
           // { icon: 'github', link: 'https://github.com/superexchain' }
         ],
 
+        darkModeSwitchLabel: "主题",
+        returnToTopLabel: "返回顶部",
+        sidebarMenuLabel: "目录",
         outlineTitle: " ",
         docFooter: {
           prev: "上一页",
           next: "下一页",
-        }
+        },
       },
     },
   },

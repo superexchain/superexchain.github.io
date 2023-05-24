@@ -3,8 +3,8 @@
     "vitepress": "1.0.0-alpha.76"
   },
   "scripts": {
-    "docs:dev": "vitepress dev src",
-    "docs:build": "vitepress build src",
-    "docs:preview": "vitepress preview src"
+    "src:dev": "vitepress dev src",
+    "src:build": "vitepress build src",
+    "src:preview": "vitepress preview src"
   }
 }
