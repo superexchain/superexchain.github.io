@@ -14,7 +14,7 @@
 
 现在，您可以启动Remix进行操作。在主页面的Featured Plugins下选择 SOLIDITY为Solidity开发配置Remix，接着导航至File Explorers查看。
 
-![](/zh/images/.png)
+![](/zh/images/remix-01.png)
 
 您将会需要创建一个新文件以保存Solidity智能合约。点击File Explorers下方的+按钮并在弹窗中输入文件名称MyToken.sol。
 

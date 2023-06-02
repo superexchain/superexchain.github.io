@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as n,O as a}from"./chunks/framework.4afe7240.js";const g=JSON.parse('{"title":"SCS Chain","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"},o=a("",17),r=[o];function s(c,l,p,d,h,u){return t(),n("div",null,r)}const S=e(i,[["render",s]]);export{g as __pageData,S as default};
