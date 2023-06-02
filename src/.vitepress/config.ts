@@ -30,7 +30,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Deploy with Remix",
-                    link: "/zh/smart-contract/deployment/remix",
+                    link: "smart-contract/deployment/remix",
                   },
                 ],
               },
@@ -39,11 +39,11 @@ export default defineConfig({
                 items: [
                   {
                     text: "SIP 20：SRC-20 Token Standard",
-                    link: "/zh/smart-contract/standard/SIP-20",
+                    link: "smart-contract/standard/SIP-20",
                   },
                   {
                     text: "SIP 721：SRC-721 Non-Fungible Token Standard",
-                    link: "/zh/smart-contract/standard/SIP-721",
+                    link: "smart-contract/standard/SIP-721",
                   },
                 ],
               },
@@ -51,13 +51,25 @@ export default defineConfig({
           },
           {
             text: "API",
+            items: [
+              {
+                text: "JSON-RPC",
+                link: "/api/json-rpc",
+              },
+            ],
           },
           {
             text: "SDK",
+            items: [
+              {
+                text: "Ethers.js",
+                link: "/sdk/ethersjs",
+              },
+            ],
           },
           {
             text: "Question",
-            items: [{ text: "Q&A", link: "/zh/question/question-answer" }],
+            items: [{ text: "Q&A", link: "/question/question-answer" }],
           },
         ],
 

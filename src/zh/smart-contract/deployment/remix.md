@@ -14,11 +14,11 @@
 
 现在，您可以启动Remix进行操作。在主页面的Featured Plugins下选择 SOLIDITY为Solidity开发配置Remix，接着导航至File Explorers查看。
 
-![remix-01](../../images/remix-01.png)
+![](/zh/images/.png)
 
 您将会需要创建一个新文件以保存Solidity智能合约。点击File Explorers下方的+按钮并在弹窗中输入文件名称MyToken.sol。
 
-![remix-01](../../images/remix-02.png)
+![](/zh/images/remix-02.png)
 
 接着，将以下智能合约粘贴至弹窗的编辑框内：
 ```solidity
@@ -46,7 +46,7 @@ contract MyToken is ERC20 {
 
 确认无误之后，请点击Deploy。
 
-![remix-01](../../images/remix-03.png)
+![](/zh/images/remix-03.png)
 
 随后，MetaMask将跳出弹窗要求您确认此次部署合约的交易。
 
@@ -56,14 +56,14 @@ contract MyToken is ERC20 {
 
 将页面下滑，找到MYTOKEN At，如果您复制合约地址并将它粘贴在balanceOf字段中，您可以看到用户地址上的账户全部余额。点击合约名称和地址旁边的按钮可复制合约地址。
 
-![remix-01](../../images/remix-04.png)
+![](/zh/images/remix-04.png)
 
 ## 通过MetaMask与SRC-20进行交互
 
 现在，打开MetaMask添加刚部署的SRC-20 Token。在操作之前先确认您已在Remix上复制了合约地址。回到MetaMask，如下图所示，点击Add Token。请确保您现在所操作的账户为已部署合约的账户。
 
-![remix-01](../../images/remix-05.png)
+![](/zh/images/remix-05.png)
 
 将已复制的合约地址粘贴至Custom Token字段内，与此同时Token Symbol和Decimals of Precision字段会自动填充。
 
-![remix-01](../../images/remix-06.png)
+![](/zh/images/remix-06.png)
