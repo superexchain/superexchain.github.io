@@ -1,7 +1,5 @@
 # JSON-RPC
 
-------
-
 ## Query Latest Block Number
 
 ### Request
