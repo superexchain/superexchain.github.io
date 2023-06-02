@@ -54,7 +54,7 @@ export default defineConfig({
             items: [
               {
                 text: "JSON-RPC",
-                link: "/api/json-rpc",
+                link: "/api/jsonrpc",
               },
             ],
           },
