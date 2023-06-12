@@ -1,26 +1,25 @@
 # 使用Remix部署
 
-## 概览
-[Remix](https://remix.ethereum.org)是目前以太坊上最常被使用的智能合约开发环境之一。基于SCS Chain兼容以太坊的特性，Remix可直接与SCS Chain网络一起使用。
-本教程将介绍使用Remix IDE在SCS Chain开发节点上部署和创建基于Solidity的智能合约的过程。
+## 概觀
+[Remix](https://remix.ethereum.org)是目前以太坊上最常被使用的智能合約開發環境之一。基於SCS Chain兼容以太坊的特性，Remix 可直接與SCS Chain 網路一起使用。本教程將介紹使用Remix IDE在SCS Chain開發節點上部署和建立基於Solidity的智能合約的過程。
 
-## 查看先决条件
+## 檢視先決條件
 
-在开始之前，您将需要准备以下内容：
-* 安装且配置完毕的[MetaMask](https://metamask.io/)以使用您的开发节点
+在開始之前，您將需要準備以下內容：
+* 安裝且設定完畢的[MetaMask](https://metamask.io/)以使用您的開發節點
 
 
-## 开始使用Remix
+## 開始使用Remix
 
-现在，您可以启动Remix进行操作。在主页面的Featured Plugins下选择 SOLIDITY为Solidity开发配置Remix，接着导航至File Explorers查看。
+現在，您可以啟動Remix進行操作。在主頁面的Featured Plugins下選擇 SOLIDITY作為Solidity開發配置Remix，接著導航至File Explorers查看。
 
 ![](/zh/images/remix-01.png)
 
-您将会需要创建一个新文件以保存Solidity智能合约。点击File Explorers下方的+按钮并在弹窗中输入文件名称MyToken.sol。
+您將需要創建一個新文件以保存Solidity智能合約。點擊File Explorers下方的+按鈕並在彈出窗口中輸入文件名MyToken.sol。
 
 ![](/zh/images/remix-02.png)
 
-接着，将以下智能合约粘贴至弹窗的编辑框内：
+接著，將以下智能合約貼上至彈窗的編輯框內：
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
@@ -34,36 +33,36 @@ contract MyToken is ERC20 {
 }
 ```
 
-这是一个基于最新OpenZeppelin SRC-20模板编写的简易版SRC-20合约。该合约使用MYTOK作为MyToken的符号，并为合约创建者铸造初始Token。
+這是一個基於最新OpenZeppelin SRC-20模板編寫的簡易版SRC-20合約。該合約使用MYTOK作為MyToken的符號，並為合約創建者鑄造初始Token。
 
-接着，导向至侧边选项的Compile并点击Compile MyToken.sol按钮。
+接著，導向至側邊選項的Compile並點擊Compile MyToken.sol按鈕。
 
-您将会看到Remix下载了所有OpenZeppelin的依赖项并完成合约编译。
+您將會看到Remix下載了所有OpenZeppelin的依賴項並完成合約編譯。
 
-请在MetaMask点击Next授权Remix使用您所选取的账户。
+請在MetaMask點擊Next授權Remix使用您所選取的帳戶。
 
-接着返回Remix界面，您会看到您想要用来部署的账户已经通过MetaMask授权登入。
+接著返回Remix界面，您會看到您想要用來部署的帳戶已經通過MetaMask授權登入。
 
-确认无误之后，请点击Deploy。
+確認無誤之後，請點擊Deploy。
 
 ![](/zh/images/remix-03.png)
 
-随后，MetaMask将跳出弹窗要求您确认此次部署合约的交易。
+隨後，MetaMask將跳出彈窗要求您確認此次部署合約的交易。
 
-在您点击Confirm后部署也随之完成，您将会在MetaMask上看到您的交易记录。与此同时，合约也将会在Remix中的Deployed Contracts下出现。
+在您點擊Confirm後，部署也隨之完成，您將會在MetaMask上看到您的交易記錄。與此同時，合約也將會在Remix中的Deployed Contracts下出現。
 
-成功部署合约之后，您便可通过Remix与智能合约进行交互。
+成功部署合約之後，您便可通過Remix與智能合約進行交互。
 
-将页面下滑，找到MYTOKEN At，如果您复制合约地址并将它粘贴在balanceOf字段中，您可以看到用户地址上的账户全部余额。点击合约名称和地址旁边的按钮可复制合约地址。
+將頁面下滑，找到MYTOKEN At，如果您複製合約地址並將它粘貼在balanceOf欄位中，您可以看到使用者地址上的帳戶全部餘額。點擊合約名稱和地址旁邊的按鈕可複製合約地址。
 
 ![](/zh/images/remix-04.png)
 
-## 通过MetaMask与SRC-20进行交互
+## 通過MetaMask與SRC-20進行交互
 
-现在，打开MetaMask添加刚部署的SRC-20 Token。在操作之前先确认您已在Remix上复制了合约地址。回到MetaMask，如下图所示，点击Add Token。请确保您现在所操作的账户为已部署合约的账户。
+現在，打開MetaMask添加剛部署的SRC-20 Token。在操作之前先確認您已在Remix上複製了合約地址。回到MetaMask，如下圖所示，點擊Add Token。請確保您現在所操作的帳戶為已部署合約的帳戶。
 
 ![](/zh/images/remix-05.png)
 
-将已复制的合约地址粘贴至Custom Token字段内，与此同时Token Symbol和Decimals of Precision字段会自动填充。
+將已複製的合約地址粘貼至Custom Token欄位內，與此同時Token Symbol和Decimals of Precision欄位會自動填充。
 
 ![](/zh/images/remix-06.png)
