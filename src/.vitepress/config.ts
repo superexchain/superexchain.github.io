@@ -80,20 +80,20 @@ export default defineConfig({
         outlineTitle: " ",
       },
     },
-    zh: {
-      label: "简体中文",
-      lang: "zh",
-      link: "/zh/",
+    "zh-tw": {
+      label: "繁體中文",
+      lang: "zh-tw",
+      link: "/zh-tw/",
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         sidebar: [
           {
-            text: "快速开始",
-            items: [{ text: "简介", link: "/zh/quick-start/introduction" }],
+            text: "快速開始",
+            items: [{ text: "簡介", link: "/zh-tw/quick-start/introduction" }],
           },
           {
-            text: "节点",
-            items: [{ text: "节点概述", link: "/zh/node/node-overview" }],
+            text: "節點",
+            items: [{ text: "節點概述", link: "/zh-tw/node/node-overview" }],
           },
           {
             text: "智能合约",
@@ -103,21 +103,21 @@ export default defineConfig({
                 items: [
                   {
                     text: "使用Remix",
-                    link: "/zh/smart-contract/deployment/remix",
+                    link: "/zh-tw/smart-contract/deployment/remix",
                   },
                   // { text: "使用SCS Start", link: "/zh/smart-contract/deployment/scs-start" },
                 ],
               },
               {
-                text: "标准",
+                text: "標準",
                 items: [
                   {
-                    text: "SIP 20：SRC-20 代币标准",
-                    link: "/zh/smart-contract/standard/SIP-20",
+                    text: "SIP 20：SRC-20 代幣標準",
+                    link: "/zh-tw/smart-contract/standard/SIP-20",
                   },
                   {
-                    text: "SIP 721：SRC-721 非同质化代币标准",
-                    link: "/zh/smart-contract/standard/SIP-721",
+                    text: "SIP 721：SRC-721 非同質化代幣標準",
+                    link: "/zh-tw/smart-contract/standard/SIP-721",
                   },
                 ],
               },
@@ -128,7 +128,7 @@ export default defineConfig({
             items: [
               {
                 text: "JSON-RPC",
-                link: "/zh/api/json-rpc",
+                link: "/zh-tw/api/json-rpc",
               },
             ],
           },
@@ -137,14 +137,14 @@ export default defineConfig({
             items: [
               {
                 text: "Ethers.js",
-                link: "/zh/sdk/ethersjs",
+                link: "/zh-tw/sdk/ethersjs",
               },
             ],
           },
           {
-            text: "常见问题",
+            text: "常見問題",
             items: [
-              { text: "常见问题解答", link: "/zh/question/question-answer" },
+              { text: "常見問題解答", link: "/zh-tw/question/question-answer" },
             ],
           },
         ],
@@ -153,13 +153,13 @@ export default defineConfig({
           // { icon: 'github', link: 'https://github.com/superexchain' }
         ],
 
-        darkModeSwitchLabel: "主题",
-        returnToTopLabel: "返回顶部",
-        sidebarMenuLabel: "目录",
+        darkModeSwitchLabel: "主題",
+        returnToTopLabel: "返回頂部",
+        sidebarMenuLabel: "目錄",
         outlineTitle: " ",
         docFooter: {
-          prev: "上一页",
-          next: "下一页",
+          prev: "上一頁",
+          next: "下一頁",
         },
       },
     },
