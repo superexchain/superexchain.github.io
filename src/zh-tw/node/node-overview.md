@@ -6,5 +6,5 @@ RPC節點是RPC服務提供者，為開發人員提供公共的RPC端點。SCS C
 ## 網絡類型
 有幾個不同的網絡可以運行節點。每個網絡都有自己獨立的驗證者和獨特的狀態。
 
-* 主網：https://testnetrpc.scschain.com
-* 測試網：https://rpc.scschain.com
+* 測試網：https://testnetrpc.scschain.com
+* 主網：https://rpc.scschain.com
