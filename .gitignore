@@ -2,3 +2,4 @@
 /.pnpm-lock.yaml
 /src/.vitepress/cache
 *.DS_Store
+.history
